@@ -37,7 +37,7 @@ You can listen respective audio file of this test image on respective `img-audio
 
 - Before using the app, the user should have personal tokens for Hugging Face.
 - The user should set venv environment and install ipykernel library for running app on local system ide.
-- The user should save the personal tokens in an ".env" file within the package as string objects under object names: HUGGINGFACE_TOKEN and OPENAI_TOKEN
+- The user should save the personal tokens in an ".env" file within the package as string objects under object names: HUGGINGFACE_TOKEN
 - The user can then run the app using the command: streamlit run app.py
 - Once the app is running on streamlit, the user can upload the target image
 - Execution will start automatically and it may take a few minutes to complete
