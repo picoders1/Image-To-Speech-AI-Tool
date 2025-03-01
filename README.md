@@ -12,7 +12,7 @@ Execution is divided into 3 parts:
 - **Image to text:**
   an image-to-text transformer model ([Salesforce/blip-image-captioning-base](https://huggingface.co/Salesforce/blip-image-captioning-base)) is used to generate a text scenario based on the on the AI understanding of the image context
 - **Text to story:**
-  OpenAI LLM model is prompted to create a short story (50 words: can be adjusted as reqd.) based on the generated scenario. [dolly-v2-3b](https://huggingface.co/databricks/dolly-v2-3b)
+  Databricks LLM model is prompted to create a short story (50 words: can be adjusted as reqd.) based on the generated scenario. [dolly-v2-3b](https://huggingface.co/databricks/dolly-v2-3b)
 - **Story to speech:**
   a text-to-speech transformer model ([espnet/kan-bayashi_ljspeech_vits](https://huggingface.co/espnet/kan-bayashi_ljspeech_vits)) is used to convert the generated short story into a voice-narrated audio file
 - A user interface is built using streamlit to enable uploading the image and playing the audio file
