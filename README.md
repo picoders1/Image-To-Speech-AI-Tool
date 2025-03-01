@@ -18,7 +18,7 @@ Execution is divided into 3 parts:
 - A user interface is built using streamlit to enable uploading the image and playing the audio file
 
 
-![Demo 1:Rocket Launch Image Output](img-audio/RocketLaunchOutput.jpg)
+![Demo 1:Rocket Launch Image Output] (img-audio/RocketLaunchOutput.jpg)
 You can listen respective audio file of this test image on respective `img-audio` folder 
 
 
