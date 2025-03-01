@@ -1,2 +1,2 @@
-# Image-To-Speech-AI-Tool
-An AI tool that brings images to life by extracting text and converting it into natural, engaging speech.
+# 🖼️Image-To-Speech-AI-Tool
+AI tool that generates an Audio short story based on the context of an uploaded image by prompting a GenAI LLM model, Hugging Face AI models together with Databricks Model
